@@ -1,4 +1,3 @@
-```markdown
 # Studio Ghibli Website 🎥
 
 Este proyecto es un sitio web estático para Studio Ghibli, que muestra información sobre el estudio de animación japonés.
@@ -14,6 +13,7 @@ Para visualizar el sitio web correctamente, necesitarás un navegador web actual
 ## 💻 Instalación
 
 1. Clona este repositorio en tu máquina local.
+```markdown
    ```bash
    git clone https://github.com/DannyCrisostomo/StudioGibly.git
    ```
