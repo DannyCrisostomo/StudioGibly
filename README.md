@@ -46,5 +46,3 @@ El sitio web tiene un menú de navegación que te permite acceder a diferentes s
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ---
-
-Puedes personalizar este README agregando más detalles sobre tu proyecto, capturas de pantalla, información sobre cómo contribuir, entre otros. ¡Espero que te sea útil!
