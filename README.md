@@ -1,25 +1,17 @@
+```markdown
 # Studio Ghibli Website 🎥
 
 Este proyecto es un sitio web estático para Studio Ghibli, que muestra información sobre el estudio de animación japonés.
 
-## Contenido
-
-- [Descripción](#descripción)
-- [Requisitos](#requisitos)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-
-## Descripción
+## 📝 Descripción
 
 El sitio web está creado con HTML, CSS y JavaScript. Incluye una galería de imágenes, noticias recientes y eventos relacionados con Studio Ghibli.
 
-## Requisitos
+## 📋 Requisitos
 
 Para visualizar el sitio web correctamente, necesitarás un navegador web actualizado.
 
-## Instalación
+## 💻 Instalación
 
 1. Clona este repositorio en tu máquina local.
    ```bash
@@ -27,11 +19,11 @@ Para visualizar el sitio web correctamente, necesitarás un navegador web actual
    ```
 2. Abre el archivo `index.html` en tu navegador web.
 
-## Uso
+## 🚀 Uso
 
 El sitio web tiene un menú de navegación que te permite acceder a diferentes secciones, como la galería de imágenes, noticias y eventos. También puedes hacer clic en los enlaces de las imágenes y noticias para obtener más información.
 
-## Contribución
+## 🤝 Contribución
 
 ¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, sigue estos pasos:
 
@@ -41,8 +33,9 @@ El sitio web tiene un menú de navegación que te permite acceder a diferentes s
 4. Haz un push de tus cambios a tu repositorio fork.
 5. Crea un pull request en el repositorio original.
 
-## Licencia
+## 📄 Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ---
+```
