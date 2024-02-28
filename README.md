@@ -18,6 +18,10 @@ Para visualizar el sitio web correctamente, necesitarás un navegador web actual
    ```
 2. Abre el archivo `index.html` en tu navegador web.
 
+## Redirección a la página 🔗
+
+Para acceder a Studio Ghibli, visita [StudioGhibli](https://monumental-mooncake-e6c124.netlify.app/).
+
 ## 🚀 Uso
 
 El sitio web tiene un menú de navegación que te permite acceder a diferentes secciones, como la galería de imágenes, noticias y eventos. También puedes hacer clic en los enlaces de las imágenes y noticias para obtener más información.
