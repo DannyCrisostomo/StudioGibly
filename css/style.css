@@ -1,0 +1,663 @@
+/*---------------------------------*/
+/*------------Header---------------*/
+/*---------------------------------*/
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    letter-spacing: 0 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../img/My\ Neighbor\ Totoro\ Bus\ Stop\ -\ Gray\ Blue\ [3840x2160].jfif);
+    background-size: cover;
+    background-position: right;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.header-fixed ul li a:hover {
+    background-color: aliceblue;
+    color: #000;
+}
+
+.container-links ul li a:hover {
+    color: #000;
+}
+ul li a.active {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: #000;
+}
+
+.date {
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button {
+    gap: 11px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 7px 20px;
+    background: #808080b8;
+}
+
+header h1 {
+    font-size: 4pc;
+    color: white;
+    font-family: cursive;
+    font-weight: 900;
+    text-align: center;
+}
+
+/*------------------------------kimitachi---------------*/
+.kimitachi-container {
+    display: flex;
+    gap: 2pc;
+}
+
+.range p {
+    color: #888;
+}
+
+.range a {
+    color: skyblue;
+}
+
+.range1 {
+    gap: 1pc 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.live {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: column;
+    gap: 1pc;
+}
+
+.live h1 {
+    color: #333333;
+    font-size: 2pc;
+}
+
+.live span {
+    color: #888;
+    padding: .5pc 0;
+}
+
+.kimitachi img {
+    width: 500px;
+    height: 700px;
+    border: 1px solid #c7c7c7;
+}
+
+.range img {
+    width: 500px;
+    height: 400px;
+}
+
+.launch {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.movie img {
+    width: 200px;
+    height: 200px;
+}
+
+/*------------La información más reciente---------------*/
+
+section {
+    padding: 2pc 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    color: #333333;
+    font-size: 2pc;
+    border-bottom: 1px solid #808080;
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 7px;
+}
+
+.list-links {
+    padding: 1pc 0;
+}
+
+a.button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.dates {
+    max-width: 660px;
+    padding: 1pc 0px;
+}
+
+.container-dates {
+    width: 95%;
+    padding: 1pc 0;
+}
+
+.biographia {
+    max-width: 660px;
+    width: 20%;
+    height: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+img.toshiko {
+    filter: none;
+    width: 100%;
+    height: 300px;
+}
+
+a.toshiko-link {
+    display: flex;
+    flex-direction: column;
+    color: #232323;
+    gap: 10px;
+}
+
+.toshiko-date {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+span.\.label\.label-default2 {
+    background: rgb(235 168 12);
+    font-size: .8pc;
+    color: white;
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+span.label.label-default {
+    background: rgb(99, 99, 99);
+    font-size: .8pc;
+    color: white;
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+span.label.label-blue {
+    background: #0176bf;
+    font-size: .8pc;
+    color: white;
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+span.label.label-info {
+    background: #078765;
+    font-size: .8pc;
+    color: white;
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+/*------------Footer---------------*/
+footer {
+    color: #888;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.container ul li a {
+    color: #888;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+    justify-content: space-evenly;
+}
+
+ul.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+}
+
+button {
+    padding: 7px 20px;
+}
+
+font {
+    color: #888;
+}
+
+.studio {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    justify-content: center;
+}
+
+
+/*---------Hamburguesa-------------*/
+:root {
+    ---primario: rgb(255, 255, 255);
+}
+
+#header-fixed {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1pc;
+    position: fixed;
+    transition: background-color 0.3s ease 0s;
+}
+
+#header-fixed.scrolled {
+    background-color: rgb(0 0 0 / 91%);
+    /* Cambiar por el color que desees */
+}
+
+.hamburger {
+    display: none;
+}
+
+.menuppal {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.menuppal li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+    .movie img {
+        width: 109px;
+        height: 125px;
+    }
+
+    .kimitachi-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .kimitachi img {
+        width: 100%;
+        height: 460px;
+    }
+
+    .range2 img {
+        width: 100%;
+    }
+
+    .kimitachi-container {
+        flex-direction: column;
+    }
+
+    .live h1 {
+        color: #333333;
+        font-size: 1.7pc;
+    }
+
+    .kimitachi-container {
+        gap: 0pc;
+    }
+
+    .logo a img {
+        padding: .5pc;
+    }
+
+    a.toshiko-link {
+        display: flex;
+        flex-direction: column;
+        color: #232323;
+        gap: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .biographia {
+        width: 100%;
+    }
+
+    section {
+        padding: 1pc 1pc;
+    }
+
+    .container-dates {
+        width: 100%;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title {
+        font-size: 1.7pc;
+    }
+
+    /*------------Footer---------------*/
+    .container {
+        flex-direction: column;
+    }
+
+    ul.list-inline.small {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    input {
+        width: 60%;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    img.toshiko {
+        width: 100px;
+        height: 100px;
+    }
+
+    a.toshiko-link {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .toshiko-date {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    span {
+        font-size: .9pc;
+    }
+
+    .company {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width:0px) and (max-width:991px) {
+    .kimitachi-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .toshiko-date {
+        font-size: 1pc;
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    img.toshiko {
+        width: 150px;
+        height: 150px;
+    }
+
+    a.toshiko-link {
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .biographia {
+        width: 100%;
+    }
+
+    .company {
+        display: flex;
+        gap: 10px;
+    }
+
+    .logo a img {
+        padding: .5pc;
+    }
+
+    .title {
+        font-size: 1.7pc;
+    }
+
+    section {
+        padding: 1pc 1pc;
+    }
+
+    .container-dates {
+        width: 100%;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /*------------Footer---------------*/
+    .container-links {
+        padding: 7px 0px;
+    }
+
+    .container-links {
+        padding: 10px 10px;
+    }
+
+    .container ul li a {
+        text-decoration: none;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+    }
+
+    ul.links {
+        display: flex;
+        flex-direction: column;
+        font-size: .8pc;
+    }
+
+    .container-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*---------Hamburguesa-------------*/
+    .logo {
+        z-index: 1002;
+    }
+
+    .hamburger {
+        display: block;
+        transform: translate3d(0, 0, 0);
+        transition: transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        z-index: 1002;
+        cursor: pointer;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .hamburger.is-active {
+        background-color: none;
+    }
+
+    ._layer {
+        background: var(---primario);
+        margin-bottom: 4px;
+        border-radius: 2px;
+        width: 28px;
+        height: 4px;
+        opacity: 1;
+        transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    }
+
+    .hamburger:hover .-top {
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    .hamburger:hover .-bottom {
+        -webkit-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+
+    .hamburger.is-active .-top {
+        -webkit-transform: translateY(200%) rotate(45deg) !important;
+        -ms-transform: translateY(200%) rotate(45deg) !important;
+        transform: translateY(200%) rotate(45deg) !important;
+    }
+
+    .hamburger.is-active .-mid {
+        opacity: 0;
+    }
+
+    .hamburger.is-active .-bottom {
+        -webkit-transform: translateY(-200%) rotate(135deg) !important;
+        -ms-transform: translateY(-200%) rotate(135deg) !important;
+        transform: translateY(-200%) rotate(135deg) !important;
+    }
+
+    .menuppal.is_active {
+        transform: translate3d(0px, 0px, 0px);
+    }
+
+    .menuppal {
+        display: flex;
+        background-color: rgb(0 0 0 / 91%);
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        overflow-y: scroll;
+        position: fixed;
+        top: 0;
+        transform: translate3d(0px, -100%, 0px);
+        transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+        width: 100%;
+        z-index: 1001;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menuppal ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menuppal ul li {
+        list-style: none;
+        text-align: center;
+        font-family: Verdadna, Arial, Helvetica;
+        color: nav-color-text;
+        font-size: 1.5rem;
+        line-height: 3em;
+        height: 3em;
+        color: #369;
+        text-transform: none;
+        font-weight: bold;
+    }
+
+    .menuppal ul li a {
+        text-decoration: none;
+        color: #369;
+    }
+
+}
+
+.logo a img {
+    height: 71px;
+    width: 154px;
+    filter: invert(1);
+}

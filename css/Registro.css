@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: url('../img/This\ art\ hit\ me\ right\ in\ the\ cozy\ feels.png')no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+}
+
+.registration-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.registration-form h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.registration-form p{
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+
+.registration-form input {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.reg-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.registration-form button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    transition: .5s;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+img {
+    float: left;
+    height: 71px;
+    width: 154px;
+    filter: invert(1);
+    padding: 1pc 3pc;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+@media screen and (min-width:0px) and (max-width:991px) {
+    .registration-form input {
+        font-size: 26px;
+    }
+    img {
+        height: 171px;
+        width: 254px;
+    }
+    .registration-form h1 {
+        font-size: 60px;
+    }
+    img {
+        height: 171px;
+        width: 254px;
+    }
+    .registration-form {
+        width: 600px;
+    }
+    .registration-form p {
+        font-size: 30px;
+    }
+    .registration-form button {
+        font-size: 28px;
+    }
+    a {
+        font-size: 28px;
+    }
+}

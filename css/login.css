@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: url('../img/This\ art\ hit\ me\ right\ in\ the\ cozy\ feels.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.login-form {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(255, 255, 255);
+}
+
+.login-form h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+
+}
+
+.login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.login-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+}
+
+.login-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 10px;
+    border: 0;
+}
+
+.login-form a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+.login-form button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    transition: .5s;
+}
+img {
+    float: left;
+    height: 71px;
+    width: 154px;
+    filter: invert(1);
+    padding: 1pc 3pc;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+@media screen and (min-width:0px) and (max-width:991px) {
+    .login-form input {
+        font-size: 26px;
+    }
+    img {
+        height: 171px;
+        width: 254px;
+    }
+    .login-form h1 {
+        font-size: 60px;
+    }
+    img {
+        height: 171px;
+        width: 254px;
+    }
+    .login-form {
+        width: 600px;
+    }
+    .login-form p {
+        font-size: 30px;
+    }
+    .login-form button {
+        font-size: 28px;
+    }
+    a {
+        font-size: 28px;
+    }
+}
