@@ -14,7 +14,6 @@ Para visualizar el sitio web correctamente, necesitarás un navegador web actual
 
 1. Clona este repositorio en tu máquina local.
 ```markdown
-   ```bash
    git clone https://github.com/DannyCrisostomo/StudioGibly.git
    ```
 2. Abre el archivo `index.html` en tu navegador web.
